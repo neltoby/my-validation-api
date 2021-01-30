@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 14
+  - 15x
 before_install:
   - "npm install jest-cli --global"
   - "npm install pm2 -g"
