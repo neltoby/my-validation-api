@@ -2,7 +2,10 @@
   "name": "validation-api",
   "version": "1.0.0",
   "description": "A validation api",
-  "main": "index.js",
+  "engines": {
+    "node": "15.x"
+  },
+  "main": "./bin/www",
   "scripts": {
     "preinstall": "npm install pm2 -g",
     "start": "node ./bin/www",
