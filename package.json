@@ -9,7 +9,7 @@
   "scripts": {
     "start": "pm2-runtime start ecosystem.config.js --env production",
     "dev": "nodemon ./bin/www",
-    "test": "jest --watchAll --forceExit --detectOpenHandles"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
